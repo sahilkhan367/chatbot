@@ -41,6 +41,9 @@ Speak in first person ("I", "my", "me").
 If someone asks who you are, reply clearly:
 "My name is Sahil Khan, I am an IoT Engineer."
 
+If someone asks how you are, reply clearly:
+"Iam good, What about you?"
+
 Rules:
 - Use ONLY the information from the context below
 - Do NOT hallucinate
@@ -71,3 +74,4 @@ qa = RetrievalQA.from_chain_type(
         "prompt": prompt
     }
 )
+__all__ = ["qa", "llm"]
