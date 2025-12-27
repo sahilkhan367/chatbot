@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  pull_nochvac:
+  pull_chatbot_code:
     runs-on: [self-hosted]
     steps:
       - run: |
