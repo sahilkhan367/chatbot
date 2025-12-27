@@ -7,7 +7,7 @@ import numpy as np
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Sahil Khan AI piepline test", page_icon="🤖")
-st.title("🤖 Sahil Khan – AI Assistant and code updated from github")
+st.title("🤖 Sahil Khan – AI Assistant")
 
 if "history" not in st.session_state:
     st.session_state.history = []
