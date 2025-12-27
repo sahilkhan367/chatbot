@@ -1,0 +1,16 @@
+name: Pull code on server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pull_nochvac:
+    runs-on: [self-hosted]
+    steps:
+      - run: |
+          cd /home/ec2-user/chatbot
+          pwd
+          echo "inside chatbot folder"
+          git pull origin main
