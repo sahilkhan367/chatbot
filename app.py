@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="Sahil Khan AI", page_icon="🤖")
+st.set_page_config(page_title="Sahil Khan AI demo aa", page_icon="🤖")
 st.title("🤖 Sahil Khan – AI Assistant")
 
 if "history" not in st.session_state:
